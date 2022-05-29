@@ -47,6 +47,5 @@ app.get('/api/fibonacci/:numFib', (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-    console.log(`Fibonacci Server running at http://localhost:${port}`);
-    console.log(`Use http://localhost:${port}/api/fibonacci/ and add a number to get te Fibonacci number`);
+    console.log(`Fibonacci Server running at http://localhost:${port}`, `Use http://localhost:${port}/api/fibonacci/ and add a number to get te Fibonacci number`);
 });
