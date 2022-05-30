@@ -8,13 +8,9 @@ Step 1: Download and install with clone
 
 Step 2: Install dependences
 
-This project need two dependences. Express with DotEnv and TypeScript
+This project need multiple dependences. Express with DotEnv and TypeScript. Mocha and Chai for tests
       
-    npm install express dotenv
-
-And...
-
-    npm i -D typescript @types/express @types/node
+    npm install
   
 Now run Node to load de calculator
 
@@ -33,3 +29,7 @@ Usage examples:
   http://localhost:3066/api/fibonacci/8
   
   http://localhost:3066/api/fibonacci/23
+
+For Unit and Integration tests load:
+
+    npm run test
