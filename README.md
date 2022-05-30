@@ -4,7 +4,7 @@ Instructions to install Iván's Fibonacci Calculator.
 
 Step 1: Download and install with clone
 
-    git clone https://github.com/ivannyFosters/back-fibonacci.git)
+    git clone https://github.com/ivannyFosters/back-fibonacci.git
 
 Step 2: Install dependences
 
